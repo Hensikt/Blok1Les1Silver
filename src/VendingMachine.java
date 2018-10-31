@@ -11,10 +11,10 @@ public class VendingMachine {
         int amount = 0;
 
         System.out.println("VENDING MACHINE");
-        System.out.println("SNICKERS 55 cents Press 1");
-        System.out.println("MILKYWAY 65 cents Press 2");
-        System.out.println("KITKAT 50 cents Press 3");
-        System.out.println("TWIX 45 cents Press 4");
+        System.out.println("SNICKERS 55 cents Druk 1");
+        System.out.println("MILKYWAY 65 cents Druk 2");
+        System.out.println("KITKAT 50 cents Druk 3");
+        System.out.println("TWIX 45 cents Druk 4");
 
         System.out.println("Voer uw keuze in.");
         Scanner input = new Scanner(System.in);
@@ -65,7 +65,7 @@ public class VendingMachine {
                 System.out.println();
                 System.out.println(cent + " centjes");
                 System.out.println();
-                System.out.println("Bedankt geniet van uw snack!");
+                System.out.println("Bedankt, geniet van uw snack!");
 
                 break;
 
